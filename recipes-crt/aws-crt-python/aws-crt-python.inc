@@ -7,7 +7,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=3b83ef96387f14655fc854ddc3c6bd57"
 BRANCH ?= "master"
 
 SRC_URI = "git://github.com/awslabs/aws-crt-python.git;branch=${BRANCH};name=aws-crt-python"
-SRCREV = "2d19abb7fc360416202f9c590971c91c84dc2c72"
+SRCREV = "bf06cac9d4dbea73f237f56750cff4526e5acdf2"
 S = "${WORKDIR}/git"
 
 do_configure_prepend() {
